@@ -5,7 +5,7 @@
         <active>true</active>
         <api_name>x_124702_snap.Snap</api_name>
         <client_callable>false</client_callable>
-        <description>Faz o snapshot de um registro</description>
+        <description>Faz o snapshot de um registro.</description>
         <name>Snap</name>
         <script><![CDATA[var Snap = Class.create();
 Snap.prototype = {
@@ -13,6 +13,7 @@ Snap.prototype = {
     },
 	
 	hello: function() {
+		gs.log("hello world!");
 		return "world";
 	},
 	
@@ -22,13 +23,13 @@ Snap.prototype = {
         <sys_created_by>giovanni.santos</sys_created_by>
         <sys_created_on>2017-11-16 16:40:17</sys_created_on>
         <sys_id>9905fa984f220300add87bb28110c79a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Snap</sys_name>
         <sys_package display_value="snap" source="x_124702_snap">545c66144f220300add87bb28110c7ec</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="snap">545c66144f220300add87bb28110c7ec</sys_scope>
         <sys_update_name>sys_script_include_9905fa984f220300add87bb28110c79a</sys_update_name>
         <sys_updated_by>gfrancischelli</sys_updated_by>
-        <sys_updated_on>2017-11-16 16:48:31</sys_updated_on>
+        <sys_updated_on>2017-11-16 16:50:08</sys_updated_on>
     </sys_script_include>
 </record_update>
